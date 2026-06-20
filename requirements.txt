@@ -1,0 +1,18 @@
+# Telegram Bot
+python-telegram-bot>=20.7
+
+# TON Blockchain
+pytoniq>=0.1.35
+pytoniq-core>=0.1.35
+
+# Async HTTP
+aiohttp>=3.9.0
+
+# File locking (опционально, для безопасной работы с кошельком)
+filelock>=3.13.0
+
+# Environment variables (опционально, для .env файла)
+python-dotenv>=1.0.0
+
+# HTTPX (уже включён в python-telegram-bot, но можно явно указать)
+httpx>=0.25.0
